@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Cedric Devos — Chemical Engineer & Postdoctoral Researcher at MIT</title>
+  <meta name="description" content="Dr. Cedric Devos — Postdoctoral Associate at MIT. Research in lipid nanoparticles, crystallization, microfluidics, and pharmaceutical manufacturing." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Replace with your own favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚗️</text></svg>" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">C.<span>Devos</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#timeline">Journey</a></li>
+      <li><a href="#press">Press</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="#research" onclick="closeMobile()">Research</a>
+    <a href="#publications" onclick="closeMobile()">Publications</a>
+    <a href="#timeline" onclick="closeMobile()">Journey</a>
+    <a href="#press" onclick="closeMobile()">Press</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-text">Devos</div>
+  <div class="container">
+    <div class="hero-grid">
+
+      <div class="hero-content">
+        <div class="hero-eyebrow">Postdoctoral Associate · MIT</div>
+        <h1 class="hero-name">Dr. Cedric<br><em>Devos</em></h1>
+        <p class="hero-title">Chemical Engineer & Drug Delivery Scientist</p>
+        <p class="hero-desc">
+          Designing next-generation <strong>lipid nanoparticles</strong> for nucleic acid therapeutics.
+          Bridging microfluidics, crystallization science, and pharmaceutical manufacturing
+          at the intersection of engineering precision and biological impact.
+        </p>
+        <div class="hero-actions">
+          <a href="#research" class="btn-primary">Explore Research →</a>
+          <a href="#publications" class="btn-outline">Publications</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">17<sup>+</sup></div>
+            <div class="stat-label">Publications</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">40<sup>+</sup></div>
+            <div class="stat-label">Conf. Talks</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">12<sup>+</sup></div>
+            <div class="stat-label">Students Mentored</div>
+          </div>
+        </div>
+
+        <div class="hero-affil">
+          <div class="hero-affil-icon">🏛️</div>
+          <div class="hero-affil-text">
+            <strong>Massachusetts Institute of Technology</strong>
+            Dept. of Chemical Engineering · Cambridge, MA
+          </div>
+        </div>
+
+        <div class="hero-affil" style="margin-top:0.75rem">
+          <div class="hero-affil-icon" style="background:var(--accent)">🇧🇪</div>
+          <div class="hero-affil-text">
+            <strong>KU Leuven — PhD Alumnus</strong>
+            Research Foundation Flanders Fellowship · Belgium
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="scroll-indicator">Scroll</div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-sidebar fade-up">
+        <div class="about-portrait">
+          <div class="portrait-placeholder">
+            <span class="initials">CD</span>
+            <p>Add your photo here</p>
+          </div>
+        </div>
+        <div class="about-contact-links">
+          <a href="mailto:devos@mit.edu" class="contact-link">
+            <span class="icon">✉️</span> devos@mit.edu
+          </a>
+          <a href="https://orcid.org" target="_blank" class="contact-link">
+            <span class="icon">🔬</span> ORCiD Profile
+          </a>
+          <a href="https://scholar.google.com" target="_blank" class="contact-link">
+            <span class="icon">📚</span> Google Scholar
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-link">
+            <span class="icon">💼</span> LinkedIn
+          </a>
+          <a href="https://researchgate.net" target="_blank" class="contact-link">
+            <span class="icon">🧪</span> ResearchGate
+          </a>
+        </div>
+      </div>
+
+      <div class="about-body fade-up">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Scientist at the frontier of nanomedicine & process engineering</h2>
+
+        <p>
+          I am a <strong>Postdoctoral Associate at MIT</strong>, working under the guidance of
+          Professors Allan S. Myerson and Richard D. Braatz. My research focuses on the engineering
+          of lipid nanoparticles (LNPs) for nucleic acid drug delivery — including mRNA therapeutics
+          and gene therapy — with an emphasis on precision manufacturing and morphological control.
+        </p>
+        <p>
+          I completed my PhD in Chemical Engineering at <strong>KU Leuven</strong> (Belgium),
+          where I studied nucleation kinetics, crystallization processes, and the role of ultrasound
+          and microfluidics in pharmaceutical manufacturing. I was supported by a prestigious
+          Research Foundation Flanders (FWO) fellowship and spent eight months as a
+          <strong>Visiting Scientist at Johnson &amp; Johnson</strong>.
+        </p>
+        <p>
+          Beyond the bench, I am passionate about science communication, entrepreneurship, and
+          mentoring the next generation of engineers. I am enrolled in MIT's Research to
+          Entrepreneurship program, Conception X, and have completed the MIT Kaufman Teaching
+          Certificate and Georgia Tech's Leadership &amp; Management in Action Program.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="h-icon">🎓</div>
+            <h4>Education</h4>
+            <p>PhD, MSc, BSc in Chemical Engineering — KU Leuven</p>
+          </div>
+          <div class="highlight-card">
+            <div class="h-icon">🏅</div>
+            <h4>Fellowship</h4>
+            <p>Research Foundation Flanders (FWO) doctoral fellowship</p>
+          </div>
+          <div class="highlight-card">
+            <div class="h-icon">🏢</div>
+            <h4>Industry</h4>
+            <p>Visiting Scientist & intern at Johnson & Johnson, Beerse</p>
+          </div>
+          <div class="highlight-card">
+            <div class="h-icon">🚀</div>
+            <h4>Entrepreneurship</h4>
+            <p>MIT R2E · Conception X 2026 · L-MAP Program</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+
+<!-- ══════════════════════════════════════════════
+     RESEARCH
+══════════════════════════════════════════════ -->
+<section id="research" class="section">
+  <div class="container">
+    <div class="research-intro">
+      <div>
+        <div class="section-label">Research Focus</div>
+        <h2 class="section-title">Engineering matter at the nanoscale</h2>
+      </div>
+      <p class="section-subtitle">
+        My work spans three interconnected domains: the design and manufacturing of
+        lipid nanoparticles, the fundamental science of crystallization, and the
+        development of advanced microfluidic systems for continuous pharmaceutical processing.
+      </p>
+    </div>
+
+    <div class="research-cards">
+
+      <div class="research-card fade-up">
+        <div class="rc-number">01 ──</div>
+        <span class="rc-icon">💊</span>
+        <h3>Lipid Nanoparticle Engineering</h3>
+        <p>
+          Designing mRNA-loaded lipid nanoparticles with precise size and morphology control
+          for nucleic acid drug delivery. Developing mechanistic models via population balance
+          equations to understand LNP formation and optimize therapeutic efficacy.
+        </p>
+      </div>
+
+      <div class="research-card fade-up">
+        <div class="rc-number">02 ──</div>
+        <span class="rc-icon">🔬</span>
+        <h3>Crystallization Science</h3>
+        <p>
+          Investigating primary and secondary nucleation kinetics, the role of fluid shear,
+          ultrasound, and acoustic streaming in crystal formation. Applying these insights
+          to continuous pharmaceutical crystallization processes.
+        </p>
+      </div>
+
+      <div class="research-card fade-up">
+        <div class="rc-number">03 ──</div>
+        <span class="rc-icon">⚗️</span>
+        <h3>Microfluidics & Process Intensification</h3>
+        <p>
+          Designing and characterizing modular microfluidic systems — impinging jet mixers,
+          tubular microcrystallizers — for scalable, continuous manufacturing of active
+          pharmaceutical ingredients and nanoparticles.
+        </p>
+      </div>
+
+      <div class="research-card fade-up">
+        <div class="rc-number">04 ──</div>
+        <span class="rc-icon">📡</span>
+        <h3>Hyperspectral Imaging & AI</h3>
+        <p>
+          Applying data-driven modeling strategies and hyperspectral imaging techniques
+          to lyophilization processes, enabling real-time monitoring and advanced quality
+          control in pharmaceutical manufacturing.
+        </p>
+      </div>
+
+      <div class="research-card fade-up">
+        <div class="rc-number">05 ──</div>
+        <span class="rc-icon">🌊</span>
+        <h3>Fluid Mechanics & Mixing</h3>
+        <p>
+          Studying advection–diffusion in polygonal microfluidic mixers and energy-dissipation
+          rate analysis. Understanding the interplay between fluid dynamics and phase behavior
+          in complex pharmaceutical systems.
+        </p>
+      </div>
+
+      <div class="research-card fade-up">
+        <div class="rc-number">06 ──</div>
+        <span class="rc-icon">🧬</span>
+        <h3>Nucleic Acid Therapeutics</h3>
+        <p>
+          Collaborating across disciplines to advance mRNA and gene therapy delivery platforms.
+          Reviewing structure, morphology, and function of LNPs as vehicles for the next
+          generation of biologics and vaccines.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     DATA VISUALIZATIONS
+══════════════════════════════════════════════ -->
+<section id="dataviz" class="section">
+  <div class="container">
+    <div class="section-label">By the Numbers</div>
+    <h2 class="section-title">Research at a glance</h2>
+    <p class="section-subtitle">A snapshot of research output, impact, and collaboration across institutions and journals.</p>
+
+    <div class="dataviz-grid">
+
+      <div class="viz-card">
+        <h3>Publications by journal type</h3>
+        <p class="viz-desc">Distribution across high-impact venues</p>
+        <div class="bar-chart" id="barChart">
+          <div class="bar-row">
+            <div class="bar-label">ACS Nano</div>
+            <div class="bar-track"><div class="bar-fill" data-w="85"></div></div>
+            <div class="bar-val">2</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Chem Soc Rev</div>
+            <div class="bar-track"><div class="bar-fill" data-w="75"></div></div>
+            <div class="bar-val">1</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Nature Chem Eng</div>
+            <div class="bar-track"><div class="bar-fill" data-w="70"></div></div>
+            <div class="bar-val">1</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">AIChE Journal</div>
+            <div class="bar-track"><div class="bar-fill" data-w="55"></div></div>
+            <div class="bar-val">1</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Crystal Growth</div>
+            <div class="bar-track"><div class="bar-fill" data-w="50"></div></div>
+            <div class="bar-val">2</div>
+          </div>
+          <div class="bar-row">
+            <div class="bar-label">Other Journals</div>
+            <div class="bar-track"><div class="bar-fill" data-w="100"></div></div>
+            <div class="bar-val">10</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="viz-card">
+        <h3>Career milestones</h3>
+        <p class="viz-desc">Key dates in research journey</p>
+        <div class="timeline-chart">
+          <div class="tl-item">
+            <div class="tl-year">2026</div>
+            <div class="tl-text">Conception X · Doctoral Thesis Assessor (Calabria)</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2025</div>
+            <div class="tl-text">AIChE Invited Plenary · MIT R2E · L-MAP · 8 publications</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2024</div>
+            <div class="tl-text">AIChE Panel Organizer · 2 publications</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2023</div>
+            <div class="tl-text">PhD Awarded · MIT Postdoc Begins</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2022</div>
+            <div class="tl-text">Visiting Scientist at J&amp;J Beerse</div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-year">2019</div>
+            <div class="tl-text">PhD Started · FWO Fellowship · KU Leuven</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     PUBLICATIONS
+══════════════════════════════════════════════ -->
+<section id="publications" class="section">
+  <div class="container">
+    <div class="section-label">Peer-Reviewed Work</div>
+    <h2 class="section-title">Publications</h2>
+    <p class="section-subtitle" style="margin-bottom:2rem">17 peer-reviewed articles in leading journals, including ACS Nano, Nature Chemical Engineering, and Chemical Society Reviews.</p>
+
+    <div class="pub-filters">
+      <button class="pub-filter-btn active" data-filter="all">All</button>
+      <button class="pub-filter-btn" data-filter="lnp">LNP / Drug Delivery</button>
+      <button class="pub-filter-btn" data-filter="cryst">Crystallization</button>
+      <button class="pub-filter-btn" data-filter="review">Reviews</button>
+    </div>
+
+    <div class="pub-list">
+
+      <div class="pub-item" data-tags="lnp">
+        <div class="pub-number">#16</div>
+        <div class="pub-body">
+          <div class="pub-title">Manufacturing mRNA-loaded Lipid Nanoparticles with Precise Size and Morphology Control</div>
+          <div class="pub-authors"><strong>C. Devos</strong>∗, A. Udepurkar∗, P. Sagmeister∗ et al.</div>
+          <div class="pub-journal">ACS Nano, vol. 19, issue 38, 2025</div>
+          <div class="pub-shared">∗ Shared first authorship</div>
+        </div>
+        <span class="pub-badge badge-acs">ACS Nano</span>
+      </div>
+
+      <div class="pub-item" data-tags="review lnp">
+        <div class="pub-number">#14</div>
+        <div class="pub-body">
+          <div class="pub-title">Structure and Morphology of Lipid Nanoparticles for Nucleic Acid Drug Delivery: A Review</div>
+          <div class="pub-authors">A. Udepurkar∗, <strong>C. Devos</strong>∗, P. Sagmeister∗ et al.</div>
+          <div class="pub-journal">ACS Nano, vol. 19, issue 23, 2025</div>
+          <div class="pub-shared">∗ Shared first authorship</div>
+        </div>
+        <span class="pub-badge badge-acs">ACS Nano</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst review">
+        <div class="pub-number">#15</div>
+        <div class="pub-body">
+          <div class="pub-title">Reflecting on Barriers to Continuous Pharmaceutical Crystallization</div>
+          <div class="pub-authors">G. Aprile, <strong>C. Devos</strong>, T. Vetter et al.</div>
+          <div class="pub-journal">Nature Chemical Engineering, vol. 2, 2025</div>
+        </div>
+        <span class="pub-badge badge-nature">Nature</span>
+      </div>
+
+      <div class="pub-item" data-tags="review">
+        <div class="pub-number">#10</div>
+        <div class="pub-body">
+          <div class="pub-title">Ultrasound Mechanisms and their Effect on Solid Synthesis and Processing: a Review</div>
+          <div class="pub-authors"><strong>C. Devos</strong>∗, A. Bampouli∗, E. Brozzi∗ et al.</div>
+          <div class="pub-journal">Chemical Society Reviews, vol. 54, 2025</div>
+          <div class="pub-shared">∗ Shared first authorship</div>
+        </div>
+        <span class="pub-badge badge-review">Review</span>
+      </div>
+
+      <div class="pub-item" data-tags="lnp">
+        <div class="pub-number">#9</div>
+        <div class="pub-body">
+          <div class="pub-title">Impinging Jet Mixers: A review of mixing characteristics, performance considerations, and applications</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, S. Mukherjee, P. Inguva et al.</div>
+          <div class="pub-journal">AIChE Journal, vol. 71, 2025</div>
+        </div>
+        <span class="pub-badge badge-other">AIChE</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst">
+        <div class="pub-number">#8</div>
+        <div class="pub-body">
+          <div class="pub-title">Acoustic Streaming to Control the Nucleation Kinetics of Paracetamol in a Tubular Microcrystallizer</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, A. Doyle, M. Van Eersel et al.</div>
+          <div class="pub-journal">Industrial & Engineering Chemistry Research, vol. 63, 2024</div>
+        </div>
+        <span class="pub-badge badge-other">I&ECR</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst">
+        <div class="pub-number">#7</div>
+        <div class="pub-body">
+          <div class="pub-title">Unraveling the Role of Fluid Shear on Primary Nucleation of Paracetamol through an Energy-Dissipation Rate Analysis</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, C. Xiouras, T. Van Gerven, S. Kuhn</div>
+          <div class="pub-journal">Crystal Growth and Design, vol. 24, 2024</div>
+        </div>
+        <span class="pub-badge badge-other">CGD</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst">
+        <div class="pub-number">#6</div>
+        <div class="pub-body">
+          <div class="pub-title">The interplay between nucleation and patterning in shear-induced crystallization from solution</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, A. Vananroye, R. Cardinaels et al.</div>
+          <div class="pub-journal">Soft Matter, vol. 19, 2023</div>
+        </div>
+        <span class="pub-badge badge-other">Soft Matter</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst">
+        <div class="pub-number">#3</div>
+        <div class="pub-body">
+          <div class="pub-title">Nucleation kinetics for primary, secondary and ultrasound-induced paracetamol crystallization</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, T. Van Gerven, S. Kuhn</div>
+          <div class="pub-journal">CrystEngComm, vol. 23, 2021</div>
+        </div>
+        <span class="pub-badge badge-other">CrystEngComm</span>
+      </div>
+
+      <div class="pub-item" data-tags="cryst review">
+        <div class="pub-number">#2</div>
+        <div class="pub-body">
+          <div class="pub-title">A Review of Experimental Methods for Nucleation Rate Determination in Large-Volume Batch and Microfluidic Crystallization</div>
+          <div class="pub-authors"><strong>C. Devos</strong>, T. Van Gerven, S. Kuhn</div>
+          <div class="pub-journal">Crystal Growth and Design, vol. 21, 2021</div>
+        </div>
+        <span class="pub-badge badge-review">Review</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     TIMELINE
+══════════════════════════════════════════════ -->
+<section id="timeline" class="section">
+  <div class="container">
+    <div class="section-label">Career Journey</div>
+    <h2 class="section-title">Experience & Education</h2>
+    <p class="section-subtitle" style="margin-bottom:3.5rem">
+      A path spanning Belgium, the United States, and the pharmaceutical industry —
+      from foundational engineering to frontier research.
+    </p>
+
+    <div class="timeline-wrap">
+
+      <div class="tl-entry current">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Nov. 2023 – Present</div>
+        <div class="tl-role">Postdoctoral Associate</div>
+        <div class="tl-org">Massachusetts Institute of Technology, Cambridge, MA</div>
+        <div class="tl-detail">
+          Research on lipid nanoparticle formation, mRNA drug delivery, and continuous pharmaceutical manufacturing.
+          Supervised by Prof. Allan S. Myerson and Prof. Richard D. Braatz.
+        </div>
+        <span class="tl-tag">MIT</span>
+        <span class="tl-tag">Drug Delivery</span>
+        <span class="tl-tag">LNPs</span>
+      </div>
+
+      <div class="tl-entry">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Sept. 2019 – Oct. 2023</div>
+        <div class="tl-role">Doctoral Researcher (PhD)</div>
+        <div class="tl-org">KU Leuven, Belgium</div>
+        <div class="tl-detail">
+          FWO-funded doctoral research on nucleation kinetics, crystallization, ultrasound,
+          and microfluidic pharmaceutical processing. Advisors: Prof. Simon Kuhn & Prof. Tom Van Gerven.
+        </div>
+        <span class="tl-tag">FWO Fellowship</span>
+        <span class="tl-tag">Crystallization</span>
+        <span class="tl-tag">Microfluidics</span>
+      </div>
+
+      <div class="tl-entry">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Jan. 2022 – Aug. 2022</div>
+        <div class="tl-role">Visiting Scientist</div>
+        <div class="tl-org">Johnson & Johnson, Beerse, Belgium</div>
+        <div class="tl-detail">
+          Industry research collaboration during doctoral studies.
+          Worked with Dr. Christos Xiouras on pharmaceutical crystallization projects.
+        </div>
+        <span class="tl-tag">Industry</span>
+        <span class="tl-tag">Pharma</span>
+      </div>
+
+      <div class="tl-entry">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Sept. 2017 – June 2019</div>
+        <div class="tl-role">M.Sc. Chemical Engineering Science</div>
+        <div class="tl-org">KU Leuven, Belgium</div>
+        <div class="tl-detail">
+          Advanced study in chemical engineering fundamentals,
+          reaction engineering, and process design.
+        </div>
+        <span class="tl-tag">Education</span>
+      </div>
+
+      <div class="tl-entry">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Aug. 2017 – Sept. 2017</div>
+        <div class="tl-role">Internship</div>
+        <div class="tl-org">Johnson & Johnson, Beerse, Belgium</div>
+        <div class="tl-detail">
+          First industry exposure at one of the world's leading pharmaceutical companies.
+        </div>
+        <span class="tl-tag">Industry</span>
+      </div>
+
+      <div class="tl-entry">
+        <div class="tl-dot"></div>
+        <div class="tl-period">Sept. 2014 – June 2017</div>
+        <div class="tl-role">B.Sc. Engineering Science</div>
+        <div class="tl-org">KU Leuven, Belgium</div>
+        <div class="tl-detail">
+          Foundation in mathematics, physics, and engineering principles.
+        </div>
+        <span class="tl-tag">Education</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     PRESS & MEDIA
+══════════════════════════════════════════════ -->
+<section id="press" class="section">
+  <div class="container">
+    <div class="section-label">Media & Outreach</div>
+    <h2 class="section-title">Press & Recognition</h2>
+    <p class="section-subtitle" style="margin-bottom:3rem">
+      Featured in leading scientific and industry outlets for work at the frontier
+      of pharmaceutical engineering and nucleic acid therapeutics.
+    </p>
+
+    <div class="press-grid">
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">MIT News</div>
+        <div class="press-headline">Research Feature: Lipid Nanoparticles & mRNA Manufacturing</div>
+        <div class="press-date">Forthcoming, 2025</div>
+        <span class="press-embargo">Under Embargo</span>
+      </div>
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">Chemical Engineering Progress — AIChE</div>
+        <div class="press-headline">Featured Article on Pharmaceutical Crystallization Research</div>
+        <div class="press-date">January 2025</div>
+      </div>
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">Advancing RNA & Cell & Gene Therapy</div>
+        <div class="press-headline">LNP Drug Delivery Science: Expert Perspective</div>
+        <div class="press-date">November 2025</div>
+      </div>
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">AIChE Annual Meeting 2025 — Boston</div>
+        <div class="press-headline">Invited Plenary Session: Continuous Pharmaceutical Manufacturing</div>
+        <div class="press-date">2025</div>
+      </div>
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">BioMAN Workshop 2025</div>
+        <div class="press-headline">Invited Presentation: Microfluidic LNP Manufacturing</div>
+        <div class="press-date">2025</div>
+      </div>
+
+      <div class="press-card fade-up">
+        <div class="press-outlet">Online Presence</div>
+        <div class="press-headline">ORCiD · Google Scholar · LinkedIn · ResearchGate · Scopus</div>
+        <div class="press-date">Active profiles</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-label">Get in Touch</div>
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-grid">
+
+      <div class="contact-info fade-up">
+        <p style="font-size:1rem;color:var(--text-mid);font-weight:300;line-height:1.9;margin-bottom:2rem">
+          Whether you're interested in research collaboration, speaking invitations,
+          consulting, or just want to connect — I'd be glad to hear from you.
+        </p>
+
+        <div class="contact-detail">
+          <span class="c-icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:devos@mit.edu">devos@mit.edu</a><br>
+            <a href="mailto:cedric.devos@outlook.com">cedric.devos@outlook.com</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="c-icon">📍</span>
+          <div>
+            <h4>Address</h4>
+            <p>400 Main Street, E19-532<br>Cambridge, MA 02139, USA</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="c-icon">🏛️</span>
+          <div>
+            <h4>Institution</h4>
+            <p>Massachusetts Institute of Technology<br>Department of Chemical Engineering</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <span class="c-icon">📞</span>
+          <div>
+            <h4>Phone</h4>
+            <p>+1 (339) 241-2552</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form fade-up">
+        <div id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First name</label>
+              <input type="text" placeholder="Jane" id="fname" />
+            </div>
+            <div class="form-group">
+              <label>Last name</label>
+              <input type="text" placeholder="Smith" id="lname" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" placeholder="jane@institution.edu" id="femail" />
+          </div>
+          <div class="form-group">
+            <label>Topic</label>
+            <select id="ftopic">
+              <option value="">Select a topic…</option>
+              <option>Research Collaboration</option>
+              <option>Speaking / Invited Lecture</option>
+              <option>Industry Partnership</option>
+              <option>Media Enquiry</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Describe your inquiry…" id="fmessage"></textarea>
+          </div>
+          <button class="btn-primary" onclick="submitForm()" style="width:100%;justify-content:center">
+            Send Message →
+          </button>
+        </div>
+
+        <div class="form-success" id="formSuccess">
+          <div class="check">✅</div>
+          <h3>Message sent!</h3>
+          <p>Thank you for reaching out. I'll be in touch as soon as possible.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">Dr. Cedric Devos</div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#timeline">Journey</a>
+        <a href="#press">Press</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Cedric Devos · MIT · All rights reserved</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
